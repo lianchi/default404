@@ -1,12 +1,11 @@
 {
   "name": "404page",
   "version": "1.0.0",
-  "description": "Ju&Ann 404 Page",
-  "main": "index.js",
+  "description": "Ju 404 Page",
   "scripts": {
     "start": "parcel src/index.html --open",
     "clean": "rm -rf dist/*",
-    "build:parcel": "parcel build src/index.html --no-minify --no-source-maps --public-url ./",
+    "build:parcel": "parcel build src/index.html --no-source-maps --public-url ./",
     "build": "npm run clean && npm run build:parcel"
   },
   "keywords": [],
@@ -14,6 +13,6 @@
   "license": "MIT",
   "dependencies": {
     "gsap": "^3.2.2",
-    "parcel-bundler": "^1.12.4"
+    "parcel": "^2.0.0"
   }
 }
