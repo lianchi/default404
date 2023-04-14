@@ -1,4 +1,4 @@
-import { gsap } from 'gsap';
+import { gsap } from 'gsap'
 
 class LinkFx {
     constructor(el) {
@@ -204,4 +204,4 @@ class LinkFx7 extends LinkFx {
     }
 }
 
-export default [LinkFx1, LinkFx2, LinkFx3, LinkFx4, LinkFx5, LinkFx6, LinkFx7];
+export default [LinkFx1, LinkFx2, LinkFx3, LinkFx4, LinkFx5, LinkFx6, LinkFx7]
